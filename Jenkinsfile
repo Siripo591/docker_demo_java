@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         DOCKER_CREDS = credentials('dockerhub-creds')
-        REGISTRY = "siripo/imagename"
+        REGISTRY = "siripo/myapp"
     }
     
     stages {
